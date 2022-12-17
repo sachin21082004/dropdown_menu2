@@ -11,10 +11,15 @@ header ul {
     align-items: center;
     justify-content: center;
     list-style: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .container {
     height: 100vh;
+    background: #6D6027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
